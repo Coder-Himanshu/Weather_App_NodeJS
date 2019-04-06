@@ -1,0 +1,25 @@
+{
+  "name": "simple-nodejs-weather-app",
+  "version": "1.0.0",
+  "description": "This is nodeJS real time web based application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "weather",
+    "app"
+  ],
+  "author": "Himanshu Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "10.12.0"
+  }
+}
